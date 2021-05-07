@@ -2,14 +2,54 @@
 <html>
 
 <head>
-    <title>Setup App</title>
+    <title>Install iOS App</title>
+    <meta charset="utf-8">
+	<style>
+	    button {
+		  background-color: #0AC3DC;
+		  border: none;
+		  border-radius: 30px;
+		  color: white;
+		  padding: 15px 32px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 20px;
+		}
+	</style>
 </head>
 
 <body>
+	<h1> Install Swiper iOS App </h1>
+	Connect to DEV server.
+	<h2> 9.0.2 (20210507001) </h2> <!----改這裡：build number--->
+
+	✨✨ <button onclick="location.href='itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/rs1kjfmdgawuj3v/manifest.plist'" type="button" > Download </button> ✨✨
+
+    <p>
+	<p><h3> Release Note </h3>
+	<p>
+	<!----改這裡: 放release note內容--->
+
+	<p>1. IAP refactor
+	<p>2. 廣告
+	<p>3. 地標搜尋改讀取資料的方式
+	<p>4. 轉贈沒選人要不enable轉贈按鈕
+	<p>5. [Fix] #830文案, #829 "店家名稱"可進行切換好友
+	<p>6. [Fix][SWIP-337] 轉帳 - 輸入轉贈對象之ID，四位數空一格 
+	<p>7. [UI] 最新活動把分隔線拿掉
+	<p>8. [Fix][SWIP-658][iOS]901 最新活動副標題字數過長未顯示
+	<p>9. [Fix] 合作電商底色
+
+    <!----release note內容尾--->
+        
+
+    <hr>
+    <h3> 9.0.1 </h3>
     <ul>
         <li><a
-                href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/lazuxcx5e8uujp6/manifest.plist">install
-                swiper 9.0.1 dev 20210429002</a>
+                href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/lazuxcx5e8uujp6/manifest.plist">
+            	20210429002</a>
         </li>
     </ul>
 </body>
